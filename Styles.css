@@ -1,0 +1,59 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navigation{
+    height: 100px;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:deepskyblue;
+}
+.nav_logo img{
+    height:70px;
+    width:70px;
+    padding:10px;
+}
+.nav_text{
+    float:left;
+}
+.about{
+    background-color:#ffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid;
+    margin-top: 5px;
+}
+.about h1{
+    text-align: center;
+    font-size: 3rem;
+    color:blue;
+}
+.about_image{
+    display: flex;
+    align-items: center;
+}
+.about img{
+    padding: 30px;
+}
+.donation{
+    height:100px;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+}
+.about_image h3,h4,p{
+    color:rgb(87, 87, 223);
+}
+.about_image h2{
+    color:rgb(76, 76, 233);
+}
+.razorpay-embed-btn{
+    justify-content: center;
+    text-align: center;
+}
